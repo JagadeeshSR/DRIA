@@ -1,0 +1,21 @@
+{
+  "name": "dria-backend-node",
+  "version": "1.0.0",
+  "description": "DRIA Node.js backend (sample)",
+  "main": "src/api/index.js",
+  "scripts": {
+    "start": "node src/api/index.js",
+    "dev": "nodemon src/api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
